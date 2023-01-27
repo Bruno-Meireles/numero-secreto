@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <title>Número Secreto</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__logo-inicio">Speech <span class="cabecalho__logo-final">Game</span></h1>
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista__item">
+                <a href="sobre.html " target="_blank" 
+        
+
+                    class="cabecalho-lista__item-botao cabecalho-lista__item-sobre">Sobre o jogo</a>
+            </li>
+            
+        </ul>
+    </header>
+    <h1>Acerte o número secreto</h1>
+
+    <h3>O número secreto está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span></h3>
+  
+    <div id="chute" class="mensagem">
+        <!-- <div>Você disse :</div>
+        <span class="box">20</span>
+        <div>O número secreto é maior <i class="fa-solid fa-up-long"></i></div>
+ -->
+    </div>
+
+    <footer class="rodape"> 
+        <div class="icon">      
+       <a href="https://github.com/Bruno-Meireles" target="_blank"> <i class="fa-brands fa-github"></i></i></a> 
+       <a href="https://www.linkedin.com/in/bruno-meireles-dev-front-end/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+       </div>       
+       <h3 class="copy">Desenvolvido por Bruno Meireles</h3>   
+    </footer>
+
+    <script src="./app/sortearNumero.js"></script>
+    <script src="./app/reconhecimentoDeVoz.js"></script>
+    <script src="./app/validacao.js"></script>
+</body>
+</html>
