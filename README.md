@@ -1,7 +1,7 @@
 # numero-secreto
 
 Neste projeto usei as tecnologias HTML| CSS| JAVASCRIT , consegui aprender e
-aprimorar minhas habilidades, doi um desafio super importante e ótimo para meu desempenho.
+aprimorar minhas habilidades, foi um desafio super importante e ótimo para meu desempenho.
 
 Speech Game
 O jogo tem pode ser jogado por uma ou varias pessoas.
