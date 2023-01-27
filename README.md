@@ -9,6 +9,8 @@ O ganhador terá que acertar o número de 1 a 1000.
 Jogar apenas com comando de voz.
 Quando alguem falar Game Over o jogo termina.
 
+link do joto: https://bruno-meireles.github.io/numero-secreto/
+
 
 ![Screenshot_1](https://user-images.githubusercontent.com/88012503/215174321-a678caf0-dab6-428f-9858-d82726741063.png)
 ![Screenshot_4](https://user-images.githubusercontent.com/88012503/215174325-2aa9d0fb-5d59-4012-8d15-61c3b39ca3fd.png)
